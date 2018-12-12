@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+.layout {
+  margin: 5px;
+  /*border: 1px solid #729fcf;
+  border-radius: 50px;*/
+}
+.content {
+  text-align: center;
+  border-radius: 0 0 50px;
+  border-style: solid;
+  border-color: #729fcf;
+  border-width: 0px 1px 1px 0px;
+  padding: 5px;
+}
+.header {
+  text-align: center;
+  color: #729fcf;
+  margin-top: 5px;
+  border-radius: 50px 50px 0 0;
+  border: 1px solid #729fcf
+}
+.header h1 {
+  color: #729fcf;
+  font-weight: bold;
+}
+.sider {
+  background: #fff;
+  text-align: center;
+  min-height: 70vh;
+  border-radius: 0 0 0 50px;
+  border-style: solid;
+  border-color: #729fcf;
+  border-width: 0px 1px 1px;
+}
+.recipe-select {
+  width: 175px;
+  margin-top: 50px;
+  color: #729fcf;
+  border-color: #729fcf;
+}
+.recipe-select > div {
+  color: #729fcf;
+  border-color: #729fcf;
+}
+.recipe-select .ant-select-selection__placeholder {
+  color: #729fcf;
+}
+.recipe-option {
+  color: #729fcf;
+}
+.recipe-add {
+  width: 175px;
+  margin-top: 25px;
+  color: #729fcf;
+  border-color: #729fcf;
+}
+.ing-row > div:last-child {
+  text-align: left;
+  padding-left: 10px;
+}
+.ing-row > div:first-child {
+  text-align: right;
+}
+.detail-row > div {
+  font-size: 20px;
+  font-weight: bold;
+}
